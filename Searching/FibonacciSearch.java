@@ -16,7 +16,7 @@ public class FibonacciSearch {
 		 // Marks the eliminated range from front
 		int offset = -1;
 		while(fk>1) {
-			// Check if fibMm2 is a valid location
+			// Check if fk2 is a valid location
 			int i=Math.min(offset+fk2,arr.length-1);
 			
 			if(arr[i]<target) {
